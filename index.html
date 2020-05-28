@@ -8,10 +8,20 @@
 <body>
     <h1>for Git</h1>
     <div>
-        <h2 class="header">Just for Git's practice</h2>
+        <h2 class="header" >Just for Git's practice</h2>
         <ul>1</ul>
         <ul>2</ul>
         <ul>3</ul>
     </div>
 </body>
+<script>    
+    (function(){
+        let header = document.querySelector('.header') ;
+        function hello(){
+            alert('Just test for Git!');
+        }
+
+        header.addEventListener('click',hello,false);
+    })()
+</script>
 </html>
